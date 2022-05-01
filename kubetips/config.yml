@@ -49,8 +49,8 @@ params:
     disableHLJS: true # to disable highlight.js
     disableFingerprinting: false
     favicon: "favicon.ico"
-    favicon16x16: 
-    favicon32x32: 
+    favicon16x16:
+    favicon32x32:
     apple_touch_icon: "apple-touch-icon.png"
     safari_pinned_tab: "favicon.ico"
 
@@ -126,8 +126,23 @@ taxonomies:
   tag: tags
 
 markup:
-  highlight:
-    codeFences: true
-    guessSyntax: false
-    style: native
-    tabWidth: 4
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: true
