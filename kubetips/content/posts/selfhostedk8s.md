@@ -1,6 +1,7 @@
 ---
 title: "Kubernetes: solutions to deploy it locally"
 date: 2022-04-17T11:11:21+02:00
+authors: ["Marco Franzon"]
 tags: ["on-prem", "sandbox"]
 categories: ["How to"]
 ---
