@@ -24,8 +24,8 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: KubeTips
   description: "Talking about Kubernetes using examples."
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  keywords: [Blog, Kubernetes, Docker, PaperMod]
+  author: Marco Franzon
   # author: ["Me", "You"] # multiple authors
   images: []
   DateFormat: "January 2, 2006"
@@ -39,7 +39,7 @@ params:
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -70,7 +70,9 @@ params:
     imageTitle: Blog image
     buttons:
       - name: Posts
-        url: posts
+        url: /posts/
+      - name: Contribute
+        url: /contribute/
 
   # home-info mode
   homeInfoParams:
