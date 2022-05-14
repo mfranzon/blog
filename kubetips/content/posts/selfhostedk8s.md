@@ -6,7 +6,7 @@ tags: ["on-prem", "sandbox"]
 categories: ["How to"]
 ---
 
-In this article I want to summarize the pricipal software used to deploy a
+In this article I want to summarize the most used softwares to deploy a
 local Kubernetes cluster on your local machine.
 Having a local deployment of your infrastructure is always a good idea for testing and
 debugging.
@@ -40,7 +40,7 @@ Main features that caracterized Minikube are :
   <img src="https://d33wubrfki0l68.cloudfront.net/d0c94836ab5b896f29728f3c4798054539303799/9f948/logo/logo.png" width="20%" height="30%">
 </p>
 
-[Kind](https://kind.sigs.k8s.io/docs/user/quick-start/) (Kubernetes in Docker) is a CNCF (Cloud Native Computing Foundation) certifided conformant Kubernetes installer. It is more devoted to test Kubernetes itself or to have a deeper look on how Kubernetes works under the hood.
+[Kind](https://kind.sigs.k8s.io/docs/user/quick-start/) (Kubernetes in Docker) is a CNCF (Cloud Native Computing Foundation) certified conformant Kubernetes installer. It is more devoted to test Kubernetes itself or to have a deeper look on how Kubernetes works under the hood.
 Kind gives you the possibility to easily install a local cluster using Docker containers as nodes. This makes easy to install, remove, upgrade it unlike Minikube.
 
 Main aspects are :

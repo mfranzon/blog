@@ -17,7 +17,7 @@ and doing DevOps stuff with containers, everyday I face out new bugs or
 challenges to solve, sometimes it is fun sometimes it is frustrating,
 but always I learn something new.
 
-I think on this website as an "incident playbook" more than a blog. I will tell about
+I think on this website as a "playbook" more than a blog. I will tell about
 my troubles with Docker, Podman, Singularity, Kubernetes, CRI-O, containerd and
 some useful tips or software to use to avoid sleepless nights!  
 

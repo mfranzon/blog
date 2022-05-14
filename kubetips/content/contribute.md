@@ -4,7 +4,7 @@ url: "/contribute"
 hidemeta: true
 disableShare: true
 ---
-The main philosophy of this site is to share the knowledge between developers
+The main philosophy of this website is to share the knowledge between developers
 that have found new solutions for everyday problems.
 
 If you want to tell your "how to", or you think that an article is incomplete or
