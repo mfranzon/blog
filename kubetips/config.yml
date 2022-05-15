@@ -110,13 +110,13 @@ params:
     keys: ["title","permalink", "summary", "content"]
 menu:
   main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 10
-    - identifier: tags
-      name: Tags
-      url: /tags/
       weight: 20
     - identifier: search
       name: Search
@@ -129,7 +129,6 @@ menu:
 
 taxonomies:
   category: categories
-  tag: tags
   author: authors
 
 markup:
