@@ -1,3 +1,2 @@
-*
-!.gitignore
-!/kubetips/content/posts/*
+kubetips/*
+!kubetips/content
