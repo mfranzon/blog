@@ -1,4 +1,0 @@
-[submodule "kubetips/public"]
-	path = kubetips/public
-	url = https://github.com/mfranzon/mfranzon.github.io.git
-	branch = main
