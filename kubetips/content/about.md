@@ -3,6 +3,7 @@ title: About Me
 url: "/about"
 hidemeta: true
 disableShare: true
+comments: false
 ---
 
 <p align="center">
