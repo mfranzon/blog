@@ -2,7 +2,6 @@
 title: "Kubernetes in Cloud: easy way to deploy an EKS cluster (AWS)"
 date: 2022-05-04T20:24:02+02:00
 authors: ["Marco Franzon"]
-tags: ["cloud", "aws"]
 categories: ["How to"]
 ---
 
