@@ -1,10 +1,10 @@
 ---
-title: "Make the right choice: one or more Containers into a Pod ?"
+title: "Make the right choice: one or more Containers in a Pod ?"
 date: 2022-05-19T23:40:55+02:00
 authors: ["Marco Franzon"]
 categories: ["Resources"]
 ---
-During the design phase you have to make a lot of right choices to avoid bad surprises during the deploy.
+In the design phase you have to make a lot of right choices to avoid bad surprises during the deploy.
 One of the most frequent question is: "How can I organise my application in Kubernetes to achieve better performances ?"
 Sometimes the correct answer is just make the right decision in splitting and grouping the services in the correct way.
 
