@@ -3,6 +3,8 @@ title: "NetworkPolicy : Enabling network isolation between Pods in the same Name
 date: 2022-05-26T14:54:19+02:00
 authors: ["Marco Franzon"]
 categories: ["Resources", "Network"]
+thumbnail: "twitter-shared-link.png"
+images: ["twitter-shared-link.png"]
 ---
 
 Pods are, by default, able to connect each other. No matter if they run in the same or different namespaces, no NAT will be performed between pods. Check [this article](https://kubetips.cloud/posts/containersinpod/) to have more info on pods network.

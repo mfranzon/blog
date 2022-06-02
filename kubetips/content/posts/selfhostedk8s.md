@@ -3,6 +3,8 @@ title: "Kubernetes: solutions to deploy it locally"
 date: 2022-04-17T11:11:21+02:00
 authors: ["Marco Franzon"]
 categories: ["How to"]
+thumbnail: "twitter-shared-link.png"
+images: ["twitter-shared-link.png"]
 ---
 
 In this article I want to summarize the most used softwares to deploy a

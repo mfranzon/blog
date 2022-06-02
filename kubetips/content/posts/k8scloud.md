@@ -3,6 +3,8 @@ title: "Kubernetes in Cloud: easy way to deploy an EKS cluster (AWS)"
 date: 2022-05-04T20:24:02+02:00
 authors: ["Marco Franzon"]
 categories: ["How to"]
+thumbnail: "twitter-shared-link.png"
+images: ["twitter-shared-link.png"]
 ---
 
 One of the most used service, to have your Kubernetes cluster deploy in cloud, is the Elastic Kubernetes Service provided by AWS.
