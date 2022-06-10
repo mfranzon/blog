@@ -16,7 +16,7 @@ EKS, defined as containers-as-a-service (CaaS), (more details [here](https://aws
 First of all you have to install and configure the AWS client, [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) the details for the installation. After that is necessary to add in the <code>.aws</code> folder (which should be created during the aws cli installation) two files:
 - config
 
-  ```
+  ```shell
   aws_access_key_id=[get-from-account-settings]
   aws_secret_access_key=[get-from-account-settings]
   region=[aws-region]
@@ -25,7 +25,7 @@ First of all you have to install and configure the AWS client, [here](https://do
 
 - credentials
 
-  ```
+  ```shell
   aws_access_key_id=[get-from-account-settings]
   aws_secret_access_key=[get-from-account-settings]
   ```
@@ -51,7 +51,7 @@ The command is:
 
 `eksctl create cluster -f config-cluster.yaml`
 
-```
+```yaml
 #config-cluster.yaml
 
 apiVersion: eksctl.io/v1alpha5

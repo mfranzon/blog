@@ -1,2 +1,3 @@
 kubetips/*
 !kubetips/content
+kubetips/content/cookies
